@@ -11,7 +11,8 @@ const initApp = () => {
     mobileMenu.addEventListener('click', toggleMenu)
 }
 
-document.addEventListener('DOMContentLoaded', initApp)
+document.addEventListener('DOMContentLoaded', initApp);
+
 
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -27,3 +28,6 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+  
+  

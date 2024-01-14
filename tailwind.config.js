@@ -2,8 +2,10 @@
 module.exports = {
   content: ["./*.html", "./js/*.js"],
   theme: {
+    
     extend: {
       screens: {
+        
       },
       keyframes: {
         'open-menu': {
